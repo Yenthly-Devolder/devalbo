@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav
-    className={`bg-gray-100 p-4 pt-2 pb-2 ${menuOpen ? "fixed inset-0 z-40 p-0" : ""}`}
+    className={`bg-gray-100 p-4 md:pl-36 md:pr-36 pt-2 pb-2 ${menuOpen ? "fixed inset-0 z-40 p-0" : ""}`}
     >
       <div className="container flex flex-wrap justify-between items-center">
         <Link to="/" className="text-black text-xl font-bold flex items-center">
