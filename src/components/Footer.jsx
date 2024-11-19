@@ -15,9 +15,9 @@ const Footer = () => {
             <p>
               Yenthe Devolder
               <br />
-              Bareldreef 117 postbus 002
+              Sint Margietstraat 13
               <br />
-              2880 Bornem
+              9200 Dendermonde
             </p>
             <p className="mt-2">
               Tel. +32 493 45 08 72

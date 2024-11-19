@@ -35,8 +35,8 @@ function ContactPage() {
         <div className="mb-4 flex items-center">
         <MapPinIcon className="h-6 w-6 text-gray-600 mr-2" />
           <div>
-            <p className="font-medium">Bareldreef 117 postbus 0 2</p>
-            <p className="font-medium">2880 Bornem</p>
+            <p className="font-medium">Sint Margietstraat 13</p>
+            <p className="font-medium">9200 Dendermonde</p>
           </div>
         </div>
         <div className="mt-8">
