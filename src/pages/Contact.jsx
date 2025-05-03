@@ -30,13 +30,13 @@ function ContactPage() {
         </div>
         <div className="mb-6 flex items-center">
           <BuildingOfficeIcon className="h-6 w-6 text-gray-600 mr-2" />
-          <p className="font-medium">BE0748 542 664</p>
+          <p className="font-medium">BE10 222 714 19</p>
         </div>
         <div className="mb-4 flex items-center">
         <MapPinIcon className="h-6 w-6 text-gray-600 mr-2" />
           <div>
-            <p className="font-medium">Sint Margietstraat 13</p>
-            <p className="font-medium">9200 Dendermonde</p>
+            <p className="font-medium">Zwaluwstraat 71</p>
+            <p className="font-medium">1840 Londerzeel</p>
           </div>
         </div>
         <div className="mt-8">

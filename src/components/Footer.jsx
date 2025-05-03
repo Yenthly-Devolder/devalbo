@@ -15,9 +15,9 @@ const Footer = () => {
             <p>
               Yenthe Devolder
               <br />
-              Sint Margietstraat 13
+              Zwaluwstraat 71
               <br />
-              9200 Dendermonde
+              1840 Londerzeel
             </p>
             <p className="mt-2">
               Tel. +32 493 45 08 72
@@ -29,9 +29,8 @@ const Footer = () => {
           <div className="md:col-span-1 lg:col-span-1 mt-4 md:mt-0">
             <h3 className="text-lg font-bold mb-4">Bedrijfsgegevens</h3>
             <p>
-              BTW-nummer: BE0748 542 664
+              BTW-nummer: BE10 222 714 19
               <br />
-              Rekeningnummer: BE25 3632 0152 1782
               <br />
               <div className="flex gap-7 pt-7">
                 <a

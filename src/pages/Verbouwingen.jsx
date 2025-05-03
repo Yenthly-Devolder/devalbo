@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Foto from "../assets/gallerij/5.jpg";
+import Foto from "../assets/jumbislides/5.jpg";
 import stelling3 from "../assets/hout.jpg";
 
 function Verbouwingen() {
@@ -13,7 +13,7 @@ function Verbouwingen() {
         <div className="flex gap-44">
           <div>
             <h1 className="text-3xl pb-4 font-bold">
-              Devalbo is de ideale partner voor uw totale renovatie in Bornem en
+              Devalbo is de ideale partner voor uw totale renovatie in Londerzeel en
               ver daarbuiten.
             </h1>
             <p>

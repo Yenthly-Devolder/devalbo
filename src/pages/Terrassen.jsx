@@ -16,7 +16,7 @@ function Terrassen() {
               {" "}
               Terras of oprit aanleggen? <br /> <br />
             </p>
-            Devalbo uit Bornem legt prachtige terrassen voor u aan in de stijl
+            Devalbo uit Londerzeel legt prachtige terrassen voor u aan in de stijl
             die aansluit bij uw woning of pand. <br /> <br />
             De keuze is volledig aan u. Zo gebruiken we bijvoorbeeld platines,
             kasseien met een afgeplatte bovenkant. Ze passen perfect bij
