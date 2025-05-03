@@ -52,11 +52,13 @@ const router = createBrowserRouter([
             index: true,
             element: <Verbouwingen  />
           }
-        ] 
+        ], 
       },
-    ],
+    ], 
   },
-]);
+], {
+  basename: "/", // Update with your actual basename
+});
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>  
