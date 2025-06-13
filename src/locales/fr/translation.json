@@ -1,0 +1,90 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "verbouwing": "Rénovation",
+    "terrassen": "Terrasses",
+    "offerte": "Devis",
+    "contact": "Contact"
+  },
+  "home": {
+    "quality": "QUALITÉ",
+    "quality_text": "Animés par un engagement envers la qualité, nous livrons des résultats exceptionnels qui parlent d'eux-mêmes.",
+    "passion": "PASSION",
+    "passion_text": "Portés par la passion, Devalbo insuffle de l'émotion dans chaque projet, aboutissant à des solutions créatives et engagées.",
+    "detail": "DÉTAIL",
+    "detail_text": "Un œil attentif aux détails garantit à chaque projet une finition irréprochable et une esthétique raffinée.",
+    "project_title": "Projet complet de rénovation ou de construction neuve.",
+    "project_text": "Bienvenue chez Devalbo, votre spécialiste en rénovations et terrasses. Laissez-nous réaliser votre projet de rêve avec savoir-faire et qualité. Contactez-nous dès aujourd'hui pour un espace de vie renouvelé.",
+    "renovation_title": "La rénovation devient réalisable",
+    "renovation_text": "En tant qu'entreprise de rénovation expérimentée, Devalbo vous guide parfaitement dans la transformation de vos idées en un plan réalisable. Nous évaluons ce qui est techniquement et budgétairement possible et vous conseillons sur le choix des matériaux. Vous n'avez pas encore d'architecte ? Nous pouvons vous accompagner dans cette démarche.",
+    "news_title": "Dernières Nouvelles",
+    "question_title": "Vous avez une question ?",
+    "question_text": "Vous avez une question sur un projet ou un travail qui vous pose problème ? Vous souhaitez plus d'informations ou prendre rendez-vous pour un devis sans engagement ? N'hésitez pas à nous contacter dès que possible.",
+    "quote_button": "Demander un devis",
+    "contact_button": "Prendre contact"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "phone": "+32 493 45 08 72",
+    "email": "info@devalbo.be",
+    "vat": "BE10 222 714 19",
+    "address_street": "Zwaluwstraat 71",
+    "address_city": "1840 Londerzeel"
+  },
+  "offerte": {
+    "title": "Demander un Devis",
+    "name_label": "Votre Nom",
+    "name_placeholder": "Entrez votre nom",
+    "name_error": "Le nom est requis",
+    "email_label": "Adresse e-mail",
+    "email_placeholder": "Entrez votre adresse e-mail",
+    "email_error": "Entrez une adresse e-mail valide",
+    "phone_label": "Numéro de téléphone",
+    "phone_placeholder": "Entrez votre numéro de téléphone",
+    "phone_error": "Entrez un numéro de téléphone valide",
+    "postcode_label": "Code postal",
+    "postcode_placeholder": "Entrez votre code postal",
+    "postcode_error": "Entrez un code postal belge valide (4 chiffres)",
+    "message_label": "Message",
+    "message_placeholder": "Parlez-nous de votre projet...",
+    "message_error": "Le message est requis",
+    "submit_button": "Envoyer",
+    "success_message": "Devis envoyé avec succès ! Nous vous contacterons bientôt.",
+    "error_message": "Une erreur s'est produite lors de l'envoi. Veuillez réessayer."
+  },
+  "terrassen": {
+    "title": "ALLÉE ET TERRASSE",
+    "subtitle": "Aménager une terrasse ou une allée ?",
+    "text": "Devalbo, basé à Londerzeel, construit pour vous de magnifiques terrasses dans le style qui correspond à votre maison ou propriété. Le choix vous appartient entièrement. Par exemple, nous utilisons des platines, des pavés à surface aplatie, parfaits pour les maisons de style pastoral et disponibles en brun, gris, noir et multicolore. Préférez-vous un style moderne ? Alors, les klinkers ou les carreaux pourraient être plus appropriés. Différents matériaux sont possibles, comme la pierre naturelle ou les klinkers en béton. Aménagement de terrasse L'aménagement d'une terrasse nécessite un savoir-faire spécifique. Chez Devalbo, ce savoir-faire est transmis de père en fils. L'aspect le plus important lors de la construction d'une terrasse est d'éviter les affaissements. Vous pouvez dormir sur vos deux oreilles si vous nous confiez la réalisation de votre terrasse. Nous garantissons une pose plane et parfaitement droite. Conseils gratuits Nous vous conseillons en fonction de votre budget sur les possibilités, les matériaux, l'entretien et la durabilité. Vous choisissez les matériaux, et nous livrons et installons votre terrasse.",
+    "contact_title": "CONTACTEZ-NOUS",
+    "contact_text": "Êtes-vous convaincu de notre savoir-faire et souhaitez-vous demander un devis ? N'hésitez pas à contacter Devalbo !",
+    "quote_button": "Demander un devis"
+  },
+  "verbouwingen": {
+    "title": "Devalbo est le partenaire idéal pour votre rénovation complète à Londerzeel et bien au-delà.",
+    "text": "Avec une vaste expérience dans les travaux de rénovation, nous offrons un service de haute qualité à nos clients. Nous travaillons seuls, ce qui garantit une approche personnelle et dévouée à chaque projet.",
+    "renovation_title": "RÉNOVATION COMPLÈTE",
+    "renovation_text": "Chez Devalbo, nous comprenons mieux que quiconque qu'une rénovation complète est une entreprise majeure. C'est pourquoi nous proposons une approche minutieuse et structurée pour transformer votre maison. Que vous souhaitiez installer une nouvelle cuisine ou rénover votre salon, nous avons l'expertise nécessaire pour faire de votre rêve une réalité. Attention, pour les travaux électriques, nous vous orientons vers des partenaires spécialisés.",
+    "bathroom_title": "RÉNOVATION DE SALLE DE BAIN",
+    "bathroom_text": "Une salle de bain est bien plus qu'un espace fonctionnel, c'est aussi un lieu de détente et de relaxation. Chez Devalbo, nous veillons à une rénovation de salle de bain élégante et pratique qui répond à tous vos besoins.",
+    "attic_title": "RÉNOVATION DE GRENIER",
+    "attic_text": "Besoin d'espace supplémentaire ? Une rénovation de grenier peut transformer complètement votre maison. Qu'il s'agisse de créer une nouvelle chambre, un bureau ou une salle de jeux, Devalbo peut vous aider à optimiser chaque mètre carré.",
+    "contact_title": "CONTACTEZ-NOUS",
+    "contact_text": "Êtes-vous convaincu de notre savoir-faire et souhaitez-vous demander un devis ? N'hésitez pas à contacter Devalbo !",
+    "quote_button": "Demander un devis"
+  },
+  "footer": {
+    "contact_title": "Informations de contact",
+    "contact_name": "Yenthe Devolder",
+    "contact_address_street": "Zwaluwstraat 71",
+    "contact_address_city": "1840 Londerzeel",
+    "contact_phone_label": "Tél.",
+    "contact_phone": "+32 493 45 08 72",
+    "contact_email_label": "E-mail :",
+    "contact_email": "info@devalbo.be",
+    "company_title": "Informations de l'entreprise",
+    "company_vat_label": "Numéro de TVA :",
+    "company_vat": "BE10 222 714 19",
+    "copyright": "Tous droits réservés."
+  }
+}

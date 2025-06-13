@@ -1,0 +1,90 @@
+{
+  "navbar": {
+    "home": "Home",
+    "verbouwing": "Verbouwing",
+    "terrassen": "Terrassen",
+    "offerte": "Offerte",
+    "contact": "Contact"
+  },
+  "home": {
+    "quality": "KWALITEIT",
+    "quality_text": "Gedreven door toewijding aan kwaliteit, leveren wij hoogwaardige resultaten om U tegen te zeggen.",
+    "passion": "PASSIE",
+    "passion_text": "Gedreven door passie weeft Devalbo emotie in elk project, resulterend in creatieve en betrokken oplossingen.",
+    "detail": "DETAIL",
+    "detail_text": "Een scherp oog voor detail resulteerd elk project een voortreffelijke afwerking met een verfijnde esthetiek.",
+    "project_title": "Totaalproject renovatie of nieuwbouw.",
+    "project_text": "Welkom bij Devalbo, jouw specialist in renovaties en terrassen. Laat ons jouw droomproject realiseren met vakmanschap en kwaliteit. Neem vandaag nog contact op voor een vernieuwde leefomgeving.",
+    "renovation_title": "Renoveren wordt haalbaar",
+    "renovation_text": "Als doorwinterd renovatiebedrijf kan Devalbo u uitstekend begeleiden in het omzetten van uw ideeën naar een haalbaar plan. We gaan na wat technisch en budgettair mogelijk is en adviseren u in het gebruik van materialen. Hebt u nog geen architect? Dan kunnen we u daarin zeker begeleiden.",
+    "news_title": "Laatste Nieuws",
+    "question_title": "Heeft u een vraag?",
+    "question_text": "Heb je een vraag over een project of werk waar je niet uitgeraakt? Wens je wat meer info of had je graag een afspraak gemaakt voor een geheel vrijblijvende offerte? Aarzel dan niet en neem zo snel mogelijk contact op met ons.",
+    "quote_button": "Offerte aanvragen",
+    "contact_button": "Neem contact op"
+  },
+  "contact": {
+    "title": "Contacteer ons",
+    "phone": "+32 493 45 08 72",
+    "email": "info@devalbo.be",
+    "vat": "BE10 222 714 19",
+    "address_street": "Zwaluwstraat 71",
+    "address_city": "1840 Londerzeel"
+  },
+  "offerte": {
+    "title": "Offerte Aanvragen",
+    "name_label": "Uw Naam",
+    "name_placeholder": "Voer uw naam in",
+    "name_error": "Naam is verplicht",
+    "email_label": "E-mailadres",
+    "email_placeholder": "Voer uw e-mailadres in",
+    "email_error": "Voer een geldig e-mailadres in",
+    "phone_label": "Telefoonnummer",
+    "phone_placeholder": "Voer uw telefoonnummer in",
+    "phone_error": "Voer een geldig telefoonnummer in",
+    "postcode_label": "Postcode",
+    "postcode_placeholder": "Voer uw postcode in",
+    "postcode_error": "Voer een geldige Belgische postcode in (4 cijfers)",
+    "message_label": "Bericht",
+    "message_placeholder": "Vertel ons over uw project...",
+    "message_error": "Bericht is verplicht",
+    "submit_button": "Verzenden",
+    "success_message": "Offerte successfully sent! We will contact you soon.",
+    "error_message": "Er is een fout opgetreden bij het verzenden. Probeer opnieuw."
+  },
+  "terrassen": {
+    "title": "OPRIT EN TERRAS",
+    "subtitle": "Terras of oprit aanleggen?",
+    "text": "Devalbo uit Londerzeel legt prachtige terrassen voor u aan in de stijl die aansluit bij uw woning of pand. De keuze is volledig aan u. Zo gebruiken we bijvoorbeeld platines, kasseien met een afgeplatte bovenkant. Ze passen perfect bij woningen in de pastoriestijl en zijn verkrijgbaar in bruin, grijs, zwart en multicolor. Hebt u liever een moderne stijl? Dan kunnen we beter kijken naar klinkers of tegels. Er zijn verschillende soorten materialen mogelijk, zoals bijvoorbeeld natuursteen of betonklinkers. Aanleg terras De aanleg van een terras verreist de nodige vakkennis. Bij Devalbo is deze kennis doorgegeven van vader op zoon. Het belangrijkste aspect bij de aanleg van een terras is om verzakkingen te voorkomen. U kan ook op uw beide oren slapen als u uw terras door ons laat aanleggen. Wij zorgen voor een egaal & loodrechte plaatsing. Gratis advies We adviseren u naargelang uw budget over de mogelijkheden, materialen, onderhoud & duurzaamheid. U kiest de materialen en wij leveren en plaatsen uw terras.",
+    "contact_title": "CONTACTEER ONS",
+    "contact_text": "Bent u overtuigd van ons vakmanschap en wenst u een offerte aan te vragen? Neem dan zeker even contact op met Devalbo!",
+    "quote_button": "Offerte aanvragen"
+  },
+  "verbouwingen": {
+    "title": "Devalbo is de ideale partner voor uw totale renovatie in Londerzeel en ver daarbuiten.",
+    "text": "Met een uitgebreide ervaring in renovatiewerken, bieden we een hoogwaardige dienst aan onze klanten. We werken alleen, wat zorgt voor een persoonlijke en toegewijde benadering van elk project.",
+    "renovation_title": "TOTALE RENOVATIE",
+    "renovation_text": "Bij Devalbo snappen we als geen ander dat een totale renovatie een grote onderneming is. Daarom bieden we een grondige en gestructureerde aanpak om uw woning te transformeren. Of u nu een nieuwe keuken wilt plaatsen of uw woonkamer wilt vernieuwen, wij hebben de expertise in huis om uw droom werkelijkheid te maken. Let op, voor elektriciteitswerken verwijzen we u door naar gespecialiseerde partners.",
+    "bathroom_title": "BADKAMERRENOVATIE",
+    "bathroom_text": "Een badkamer is meer dan alleen een functionele ruimte, het is ook een plek om te ontspannen en tot rust te komen. Bij Devalbo zorgen we voor een stijlvolle en praktische badkamerrenovatie die aan al uw behoeften voldoet.",
+    "attic_title": "ZOLDERRENOVATIE",
+    "attic_text": "Heeft u extra ruimte nodig? Een zolderrenovatie kan uw huis volledig transformeren. Of het nu gaat om het creëren van een nieuwe slaapkamer, kantoorruimte of speelkamer, Devalbo kan u helpen om optimaal gebruik te maken van elke vierkante meter.",
+    "contact_title": "CONTACTEER ONS",
+    "contact_text": "Bent u overtuigd van ons vakmanschap en wenst u een offerte aan te vragen? Neem dan zeker even contact op met Devalbo!",
+    "quote_button": "Offerte aanvragen"
+  },
+  "footer": {
+    "contact_title": "Contactinformatie",
+    "contact_name": "Yenthe Devolder",
+    "contact_address_street": "Zwaluwstraat 71",
+    "contact_address_city": "1840 Londerzeel",
+    "contact_phone_label": "Tel.",
+    "contact_phone": "+32 493 45 08 72",
+    "contact_email_label": "E-mail:",
+    "contact_email": "info@devalbo.be",
+    "company_title": "Bedrijfsgegevens",
+    "company_vat_label": "BTW-nummer:",
+    "company_vat": "BE10 222 714 19",
+    "copyright": "Alle rechten voorbehouden."
+  }
+}

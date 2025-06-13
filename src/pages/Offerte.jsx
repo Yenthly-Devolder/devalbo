@@ -2,8 +2,10 @@ import Muur from "../assets/wit.jpg";
 import Foto from "../assets/gallerij/4.5.jpg";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 
 const Offerte = () => {
+  const { t } = useTranslation();
   const homepageStyle = {
     backgroundImage: `url(${Muur})`,
     backgroundSize: "cover",
@@ -21,38 +23,33 @@ const Offerte = () => {
   const validateForm = () => {
     const newErrors = {};
 
-    // Name validation
     if (!name.trim()) {
-      newErrors.name = "Naam is verplicht";
+      newErrors.name = t('offerte.name_error');
     }
 
-    // Email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!email.trim()) {
-      newErrors.email = "E-mailadres is verplicht";
+      newErrors.email = t('offerte.email_error');
     } else if (!emailRegex.test(email)) {
-      newErrors.email = "Voer een geldig e-mailadres in";
+      newErrors.email = t('offerte.email_error');
     }
 
-    // Phone number validation
     const phoneRegex = /^\+?\d[\d\s-]{8,}$/;
     if (!telephonenr.trim()) {
-      newErrors.telephonenr = "Telefoonnummer is verplicht";
+      newErrors.telephonenr = t('offerte.phone_error');
     } else if (!phoneRegex.test(telephonenr)) {
-      newErrors.telephonenr = "Voer een geldig telefoonnummer in";
+      newErrors.telephonenr = t('offerte.phone_error');
     }
 
-    // Postcode validation (Belgian format: 4 digits)
     const postcodeRegex = /^\d{4}$/;
     if (!postcode.trim()) {
-      newErrors.postcode = "Postcode is verplicht";
+      newErrors.postcode = t('offerte.postcode_error');
     } else if (!postcodeRegex.test(postcode)) {
-      newErrors.postcode = "Voer een geldige Belgische postcode in (4 cijfers)";
+      newErrors.postcode = t('offerte.postcode_error');
     }
 
-    // Message validation
     if (!message.trim()) {
-      newErrors.message = "Bericht is verplicht";
+      newErrors.message = t('offerte.message_error');
     }
 
     setErrors(newErrors);
@@ -86,11 +83,11 @@ const Offerte = () => {
         setTelephonenr("");
         setMessage("");
         setErrors({});
-        alert("Offerte successfully sent! We will contact you soon.");
+        alert(t('offerte.success_message'));
       })
       .catch((error) => {
         console.error("Error sending email:", error);
-        alert("Er is een fout opgetreden bij het verzenden. Probeer opnieuw.");
+        alert(t('offerte.error_message'));
       });
   };
 
@@ -106,14 +103,14 @@ const Offerte = () => {
           noValidate
         >
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8 text-gray-800">
-            Offerte Aanvragen
+            {t('offerte.title')}
           </h1>
           <div className="mb-4">
             <label
               htmlFor="name"
               className="block text-gray-600 text-sm font-semibold mb-2"
             >
-              Uw Naam
+              {t('offerte.name_label')}
             </label>
             <input
               type="text"
@@ -122,7 +119,7 @@ const Offerte = () => {
               className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
                 errors.name ? "border-red-500" : "focus:ring-orange-500"
               }`}
-              placeholder="Voer uw naam in"
+              placeholder={t('offerte.name_placeholder')}
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -135,7 +132,7 @@ const Offerte = () => {
               htmlFor="email"
               className="block text-gray-600 text-sm font-semibold mb-2"
             >
-              E-mailadres
+              {t('offerte.email_label')}
             </label>
             <input
               type="email"
@@ -144,7 +141,7 @@ const Offerte = () => {
               className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
                 errors.email ? "border-red-500" : "focus:ring-orange-500"
               }`}
-              placeholder="Voer uw e-mailadres in"
+              placeholder={t('offerte.email_placeholder')}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -157,16 +154,16 @@ const Offerte = () => {
               htmlFor="telephonenr"
               className="block text-gray-600 text-sm font-semibold mb-2"
             >
-              Telefoonnummer
+              {t('offerte.phone_label')}
             </label>
             <input
               type="text"
               id="telephonenr"
               name="telephonenr"
-              className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 $
+              className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
                 errors.telephonenr ? "border-red-500" : "focus:ring-orange-500"
               }`}
-              placeholder="Voer uw telefoonnummer in"
+              placeholder={t('offerte.phone_placeholder')}
               value={telephonenr}
               onChange={(e) => setTelephonenr(e.target.value)}
             />
@@ -179,7 +176,7 @@ const Offerte = () => {
               htmlFor="postcode"
               className="block text-gray-600 text-sm font-semibold mb-2"
             >
-              Postcode
+              {t('offerte.postcode_label')}
             </label>
             <input
               type="text"
@@ -188,7 +185,7 @@ const Offerte = () => {
               className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
                 errors.postcode ? "border-red-500" : "focus:ring-orange-500"
               }`}
-              placeholder="Voer uw postcode in"
+              placeholder={t('offerte.postcode_placeholder')}
               value={postcode}
               onChange={(e) => setPostcode(e.target.value)}
             />
@@ -201,7 +198,7 @@ const Offerte = () => {
               htmlFor="message"
               className="block text-gray-600 text-sm font-semibold mb-2"
             >
-              Bericht
+              {t('offerte.message_label')}
             </label>
             <textarea
               id="message"
@@ -210,7 +207,7 @@ const Offerte = () => {
               className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 ${
                 errors.message ? "border-red-500" : "focus:ring-orange-500"
               }`}
-              placeholder="Vertel ons over uw project..."
+              placeholder={t('offerte.message_placeholder')}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
@@ -223,7 +220,7 @@ const Offerte = () => {
             className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300 disabled:bg-gray-400 disabled:cursor-not-allowed"
             disabled={Object.keys(errors).length > 0 || !name || !email || !telephonenr || !postcode || !message}
           >
-            Verzenden
+            {t('offerte.submit_button')}
           </button>
         </form>
         <div className="hidden md:block w-full max-w-md md:max-w-lg">

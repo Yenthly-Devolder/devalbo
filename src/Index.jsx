@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Layout from "./Layout.jsx";
 import Offerte from "./pages/Offerte.jsx";
-import './main.css'
-import './embla.css'
+import './main.css';
+import './embla.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.jsx";
-import Contact from "./pages/Contact.jsx"
-import Terrassen from "./pages/Terrassen.jsx"
+import Contact from "./pages/Contact.jsx";
+import Terrassen from "./pages/Terrassen.jsx";
 import Verbouwingen from "./pages/Verbouwingen.jsx";
+import './i18n'; // Import i18n configuration
 
 const router = createBrowserRouter([
   {
@@ -20,19 +21,19 @@ const router = createBrowserRouter([
       },  
       {
         path: "/contact",
-       children: [
-        {
-          index: true,
-          element: <Contact/>,
-        }
-       ]
+        children: [
+          {
+            index: true,
+            element: <Contact />,
+          }
+        ]
       }, 
       {
         path: "/offerte",
         children: [
           {
             index: true,
-            element: <Offerte/>
+            element: <Offerte />
           }
         ] 
       },
@@ -41,7 +42,7 @@ const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <Terrassen/>
+            element: <Terrassen />
           }
         ] 
       },
@@ -50,7 +51,7 @@ const router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <Verbouwingen  />
+            element: <Verbouwingen />
           }
         ], 
       },

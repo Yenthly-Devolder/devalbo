@@ -1,0 +1,90 @@
+{
+  "navbar": {
+    "home": "Home",
+    "verbouwing": "Renovation",
+    "terrassen": "Terraces",
+    "offerte": "Quote",
+    "contact": "Contact"
+  },
+  "home": {
+    "quality": "QUALITY",
+    "quality_text": "Driven by a commitment to quality, we deliver outstanding results that speak for themselves.",
+    "passion": "PASSION",
+    "passion_text": "Fueled by passion, Devalbo weaves emotion into every project, resulting in creative and engaged solutions.",
+    "detail": "DETAIL",
+    "detail_text": "A keen eye for detail ensures every project a flawless finish with refined aesthetics.",
+    "project_title": "Complete renovation or new construction project.",
+    "project_text": "Welcome to Devalbo, your specialist in renovations and terraces. Let us bring your dream project to life with craftsmanship and quality. Contact us today for a refreshed living environment.",
+    "renovation_title": "Renovation made achievable",
+    "renovation_text": "As a seasoned renovation company, Devalbo expertly guides you in turning your ideas into a feasible plan. We assess what is technically and budgetarily possible and advise you on material choices. Don't have an architect yet? We can certainly assist you with that.",
+    "news_title": "Latest News",
+    "question_title": "Do you have a question?",
+    "question_text": "Do you have a question about a project or task you're stuck on? Want more information or would you like to schedule an appointment for a completely non-binding quote? Don't hesitate and contact us as soon as possible.",
+    "quote_button": "Request a quote",
+    "contact_button": "Get in touch"
+  },
+  "contact": {
+    "title": "Contact us",
+    "phone": "+32 493 45 08 72",
+    "email": "info@devalbo.be",
+    "vat": "BE10 222 714 19",
+    "address_street": "Zwaluwstraat 71",
+    "address_city": "1840 Londerzeel"
+  },
+  "offerte": {
+    "title": "Request a Quote",
+    "name_label": "Your Name",
+    "name_placeholder": "Enter your name",
+    "name_error": "Name is required",
+    "email_label": "Email Address",
+    "email_placeholder": "Enter your email address",
+    "email_error": "Enter a valid email address",
+    "phone_label": "Phone Number",
+    "phone_placeholder": "Enter your phone number",
+    "phone_error": "Enter a valid phone number",
+    "postcode_label": "Postal Code",
+    "postcode_placeholder": "Enter your postal code",
+    "postcode_error": "Enter a valid Belgian postal code (4 digits)",
+    "message_label": "Message",
+    "message_placeholder": "Tell us about your project...",
+    "message_error": "Message is required",
+    "submit_button": "Submit",
+    "success_message": "Quote successfully sent! We will contact you soon.",
+    "error_message": "An error occurred while sending. Please try again."
+  },
+  "terrassen": {
+    "title": "DRIVEWAY AND TERRACE",
+    "subtitle": "Laying a terrace or driveway?",
+    "text": "Devalbo from Londerzeel builds beautiful terraces for you in a style that matches your home or property. The choice is entirely yours. For example, we use platines, cobblestones with a flattened top, perfect for homes in a pastoral style and available in brown, gray, black, and multicolored. Prefer a modern style? Then klinkers or tiles might be better suited. Various materials are possible, such as natural stone or concrete klinkers. Terrace construction Constructing a terrace requires specific expertise. At Devalbo, this knowledge has been passed down from father to son. The most important aspect of terrace construction is preventing subsidence. You can rest assured if you entrust your terrace to us. We ensure a level and perfectly aligned installation. Free advice We advise you based on your budget regarding possibilities, materials, maintenance, and durability. You choose the materials, and we deliver and install your terrace.",
+    "contact_title": "CONTACT US",
+    "contact_text": "Are you convinced of our craftsmanship and would you like to request a quote? Be sure to contact Devalbo!",
+    "quote_button": "Request a quote"
+  },
+  "verbouwingen": {
+    "title": "Devalbo is the ideal partner for your complete renovation in Londerzeel and far beyond.",
+    "text": "With extensive experience in renovation work, we offer high-quality service to our clients. We work alone, ensuring a personal and dedicated approach to every project.",
+    "renovation_title": "COMPLETE RENOVATION",
+    "renovation_text": "At Devalbo, we understand better than anyone that a complete renovation is a major undertaking. That's why we offer a thorough and structured approach to transform your home. Whether you want to install a new kitchen or renovate your living room, we have the expertise to make your dream a reality. Note that for electrical work, we refer you to specialized partners.",
+    "bathroom_title": "BATHROOM RENOVATION",
+    "bathroom_text": "A bathroom is more than just a functional space; it’s also a place to relax and unwind. At Devalbo, we ensure a stylish and practical bathroom renovation that meets all your needs.",
+    "attic_title": "ATTIC RENOVATION",
+    "attic_text": "Need extra space? An attic renovation can completely transform your home. Whether it’s creating a new bedroom, office space, or playroom, Devalbo can help you make optimal use of every square meter.",
+    "contact_title": "CONTACT US",
+    "contact_text": "Are you convinced of our craftsmanship and would you like to request a quote? Be sure to contact Devalbo!",
+    "quote_button": "Request a quote"
+  },
+  "footer": {
+    "contact_title": "Contact Information",
+    "contact_name": "Yenthe Devolder",
+    "contact_address_street": "Zwaluwstraat 71",
+    "contact_address_city": "1840 Londerzeel",
+    "contact_phone_label": "Tel:",
+    "contact_phone": "+32 493 45 08 72",
+    "contact_email_label": "Email:",
+    "contact_email": "info@devalbo.be",
+    "company_title": "Company Information",
+    "company_vat_label": "VAT Number:",
+    "company_vat": "BE10 222 714 19",
+    "copyright": "All rights reserved."
+  }
+}
