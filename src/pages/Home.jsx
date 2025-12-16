@@ -5,6 +5,7 @@ import logo from "../assets/d-logo.png";
 import stelling from "../assets/stelling.jpg";
 import stelling2 from "../assets/gevel2.jpg";
 import { useTranslation } from "react-i18next";
+import InstagramFeed from "./InstagramFeed";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -17,47 +18,9 @@ const Home = () => {
   const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
   React.useEffect(() => {
-    console.log('Starting Juicer.io script load');
-    const script = document.createElement('script');
-    script.src = 'https://www.juicer.io/embed/devalbo-be/embed-code.js';
-    script.id = 'JuicerScript';
-    script.async = true;
-    script.defer = true;
-    script.onerror = () => {
-      console.error('Error loading Juicer.io script');
-    };
-    if (!document.getElementById('JuicerScript')) {
-      document.head.appendChild(script);
-      console.log('Juicer.io script appended to DOM');
-    }
-
-    script.onload = () => {
-      console.log('Juicer.io script loaded successfully');
-      const checkPosts = (attempt = 1, maxAttempts = 3) => {
-        const widget = document.querySelector('.juicer-feed');
-        const posts = widget ? document.querySelectorAll('.juicer-feed .j-post') : [];
-        console.log(`Attempt ${attempt}: Number of Instagram posts loaded: ${posts.length}`);
-        if (posts.length > 0) {
-          console.log('Post elements found:', Array.from(posts).map(p => p.outerHTML.slice(0, 100) + '...'));
-        } else {
-          console.log('Widget content:', widget ? widget.innerHTML.slice(0, 200) + '...' : 'Widget not found');
-          if (attempt < maxAttempts) {
-            console.warn(`No posts found. Checking again in 2 seconds (attempt ${attempt + 1}/${maxAttempts})...`);
-            setTimeout(() => checkPosts(attempt + 1, maxAttempts), 2000);
-          } else {
-            console.error('Max attempts reached. No posts loaded. Please check Juicer.io feed configuration for @devalbo.be at https://www.juicer.io/feeds/devalbo-be.');
-          }
-        }
-      };
-      setTimeout(() => checkPosts(), 1000);
-    };
-
+    // Cleanup function if needed
     return () => {
-      console.log('Cleaning up Juicer.io script');
-      const existingScript = document.getElementById('JuicerScript');
-      if (existingScript) {
-        document.head.removeChild(existingScript);
-      }
+      // Cleanup
     };
   }, []);
 
@@ -114,77 +77,7 @@ const Home = () => {
 
       <div className="container mx-auto px-4 pt-12">
         <h1 className="font-bold text-2xl md:text-4xl text-center mb-8">{t('home.news_title')}</h1>
-        <div
-          className="juicer-feed w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-[90%] sm:max-w-[85%] md:max-w-[1400px] mx-auto"
-          data-feed-id="devalbo-be"
-          data-per="3"
-        ></div>
-        <style>
-          {`
-            .juicer-feed .j-stacker-wrapper,
-            .juicer-feed .j-stacker,
-            .juicer-feed .j-stack {
-              display: contents !important;
-              width: auto !important;
-              padding: 0 !important;
-              margin: 0 !important;
-            }
-            .juicer-feed .referral {
-              display: none !important;
-            }
-            .juicer-feed .j-post {
-              width: 100% !important;
-              max-width: 100%;
-              margin: 0 !important;
-              min-width: 350px;
-              display: block !important;
-            }
-            .juicer-feed img, .juicer-feed iframe {
-              width: 100% !important;
-              height: auto !important;
-              aspect-ratio: 1 / 1;
-              min-height: 250px;
-            }
-            .juicer-feed .j-branding {
-              display: block;
-              text-align: center;
-              margin-top: 12px;
-              font-size: 12px;
-            }
-            .juicer-feed .j-branding img {
-              width: 20px;
-              height: auto;
-              vertical-align: middle;
-            }
-            .juicer-feed .j-paginate {
-              display: none !important;
-            }
-            .juicer-feed:has(.j-post) ~ .juicer-fallback {
-              display: none !important;
-            }
-            @media (max-width: 640px) {
-              .juicer-feed img, .juicer-feed iframe {
-                min-height: 200px;
-              }
-              .juicer-feed .j-post {
-                min-width: 0;
-              }
-            }
-            @media (min-width: 640px) and (max-width: 768px) {
-              .juicer-feed img, .juicer-feed iframe {
-                min-height: 220px;
-              }
-              .juicer-feed .j-post {
-                min-width: 0;
-              }
-            }
-            @media (min-width: 768px) {
-              .juicer-feed {
-                gap: 0.5rem !important;
-              }
-            }
-          `}
-        </style>
+        <InstagramFeed />
       </div>
 
       <div className="container mx-auto px-4 flex flex-col md:flex-row gap-8 md:gap-24 pt-12">
