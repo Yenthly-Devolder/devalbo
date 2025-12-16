@@ -28,8 +28,8 @@
     "phone": "+32 493 45 08 72",
     "email": "info@devalbo.be",
     "vat": "BE10 222 714 19",
-    "address_street": "Zwaluwstraat 71",
-    "address_city": "1840 Londerzeel"
+    "address_street": "Sint-Margrietstraat (GRE) 13",
+    "address_city": "9200 Dendermonde"
   },
   "offerte": {
     "title": "Request a Quote",
@@ -76,8 +76,8 @@
   "footer": {
     "contact_title": "Contact Information",
     "contact_name": "Yenthe Devolder",
-    "contact_address_street": "Zwaluwstraat 71",
-    "contact_address_city": "1840 Londerzeel",
+    "contact_address_street": "Sint-Margrietstraat (GRE) 13",
+    "contact_address_city": "9200 Dendermonde",
     "contact_phone_label": "Tel:",
     "contact_phone": "+32 493 45 08 72",
     "contact_email_label": "Email:",

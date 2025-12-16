@@ -9,6 +9,7 @@ import Home from "./pages/Home.jsx";
 import Contact from "./pages/Contact.jsx";
 import Terrassen from "./pages/Terrassen.jsx";
 import Verbouwingen from "./pages/Verbouwingen.jsx";
+import PrivacyPolicy from "./pages/privacy-policy.jsx";
 import './i18n';
 
 const router = createBrowserRouter([
@@ -54,6 +55,15 @@ const router = createBrowserRouter([
             element: <Verbouwingen />
           }
         ], 
+      },
+      {
+        path: "/privacy-policy",
+        children: [
+          {
+            index: true,
+            element: <PrivacyPolicy />
+          }
+        ]
       },
     ], 
   },
