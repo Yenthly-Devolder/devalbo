@@ -9,7 +9,7 @@ import Home from "./pages/Home.jsx";
 import Contact from "./pages/Contact.jsx";
 import Terrassen from "./pages/Terrassen.jsx";
 import Verbouwingen from "./pages/Verbouwingen.jsx";
-import './i18n'; // Import i18n configuration
+import './i18n';
 
 const router = createBrowserRouter([
   {

@@ -1,7 +1,7 @@
+import PropTypes from 'prop-types'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import imageByIndex from './imageByIndex'
-import React from 'react'
 
 const EmblaCarousel = (props) => {
   const { slides, options } = props
@@ -27,6 +27,11 @@ const EmblaCarousel = (props) => {
       </div>
     </div>
   )
+}
+
+EmblaCarousel.propTypes = {
+  slides: PropTypes.array.isRequired,
+  options: PropTypes.object,
 }
 
 export default EmblaCarousel
